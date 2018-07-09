@@ -43,7 +43,6 @@
             this.Number1Field.Name = "Number1Field";
             this.Number1Field.Size = new System.Drawing.Size(150, 20);
             this.Number1Field.TabIndex = 0;
-            this.Number1Field.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Number2Field
             // 
@@ -51,7 +50,6 @@
             this.Number2Field.Name = "Number2Field";
             this.Number2Field.Size = new System.Drawing.Size(150, 20);
             this.Number2Field.TabIndex = 1;
-            this.Number2Field.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // buttonPlus
             // 
@@ -61,7 +59,7 @@
             this.buttonPlus.TabIndex = 2;
             this.buttonPlus.Text = "+";
             this.buttonPlus.UseVisualStyleBackColor = true;
-            this.buttonPlus.Click += new System.EventHandler(this.buttonPlusClick);
+            this.buttonPlus.Click += new System.EventHandler(this.buttonClick);
             // 
             // buttonMinus
             // 
@@ -71,7 +69,7 @@
             this.buttonMinus.TabIndex = 3;
             this.buttonMinus.Text = "-";
             this.buttonMinus.UseVisualStyleBackColor = true;
-            this.buttonMinus.Click += new System.EventHandler(this.buttonMinusClick);
+            this.buttonMinus.Click += new System.EventHandler(this.buttonClick);
             // 
             // buttonMult
             // 
@@ -81,7 +79,7 @@
             this.buttonMult.TabIndex = 4;
             this.buttonMult.Text = "*";
             this.buttonMult.UseVisualStyleBackColor = true;
-            this.buttonMult.Click += new System.EventHandler(this.buttonMultClick);
+            this.buttonMult.Click += new System.EventHandler(this.buttonClick);
             // 
             // buttonDevide
             // 
@@ -91,7 +89,7 @@
             this.buttonDevide.TabIndex = 5;
             this.buttonDevide.Text = "/";
             this.buttonDevide.UseVisualStyleBackColor = true;
-            this.buttonDevide.Click += new System.EventHandler(this.buttonDevideClick);
+            this.buttonDevide.Click += new System.EventHandler(this.buttonClick);
             // 
             // ResultField
             // 
@@ -99,7 +97,6 @@
             this.ResultField.Name = "ResultField";
             this.ResultField.Size = new System.Drawing.Size(150, 20);
             this.ResultField.TabIndex = 6;
-            this.ResultField.TextChanged += new System.EventHandler(this.Result_TextChanged);
             // 
             // Form1
             // 

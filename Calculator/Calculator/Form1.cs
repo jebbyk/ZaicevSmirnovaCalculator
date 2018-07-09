@@ -19,71 +19,36 @@ namespace Calculator
         {
             InitializeComponent();
         }
-
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void buttonPlusClick(object sender, EventArgs e)
+        
+        private void buttonClick(object sender, EventArgs e)
         {
             double number1 = Convert.ToDouble(Number1Field.Text);
             double number2 = Convert.ToDouble(Number2Field.Text);
-            double result = number1 + number2;
+            double result = 0;
+            Button clickedButton = (Button)sender;
+            switch (clickedButton.Text)
+            {
+                case "+":
+                    result = number1 + number2;
+                    break;
+                case "-":
+                    result = number1 - number2;
+                    break;
+                case "*":
+                    result = number1 * number2;
+                    break;
+                case "/":
+                    result = number1 / number2;
+                    break;
+
+            }
             ResultField.Text = result.ToString();
         }
 
-        private void buttonMinusClick(object sender, EventArgs e)
-        {
-            double number1 = Convert.ToDouble(Number1Field.Text);
-            double number2 = Convert.ToDouble(Number2Field.Text);
-            double result = number1 - number2;
-            ResultField.Text = result.ToString();
-        }
-
-        private void buttonMultClick(object sender, EventArgs e)
-        {
-            double number1 = Convert.ToDouble(Number1Field.Text);
-            double number2 = Convert.ToDouble(Number2Field.Text);
-            double result = number1 * number2;
-            ResultField.Text = result.ToString();
-        }
-
-        private void buttonDevideClick(object sender, EventArgs e)
-        {
-            double number1 = Convert.ToDouble(Number1Field.Text);
-            double number2 = Convert.ToDouble(Number2Field.Text);
-            double result = number1 / number2;
-            ResultField.Text = result.ToString();
-        }
-
-
-
-
-        private void Result_TextChanged(object sender, EventArgs e)
+    private void Result_TextChanged(object sender, EventArgs e)
         {
 
         }
     }
+
 }
