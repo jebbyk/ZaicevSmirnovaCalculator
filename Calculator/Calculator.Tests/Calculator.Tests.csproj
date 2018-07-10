@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="oneOperandFunctionalityTests\CosinusCalculatorTests.cs" />
+    <Compile Include="oneOperandFunctionalityTests\OneOperandFactoryTests.cs" />
     <Compile Include="oneOperandFunctionalityTests\SinusCalculatorTest.cs" />
     <Compile Include="oneOperandFunctionalityTests\SqrCalculatorTest.cs" />
     <Compile Include="oneOperandFunctionalityTests\SqrtCalculatorTests.cs" />
@@ -56,6 +57,7 @@
     <Compile Include="twoOperandsFunctionalityTests\DivisionCalculatortests.cs" />
     <Compile Include="twoOperandsFunctionalityTests\MultiplyCalculatorTests.cs" />
     <Compile Include="twoOperandsFunctionalityTests\SubdivisionCalculatorTests.cs" />
+    <Compile Include="twoOperandsFunctionalityTests\TwoOperndsFactoryTests.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
