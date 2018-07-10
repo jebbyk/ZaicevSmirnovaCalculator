@@ -53,6 +53,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="twoOperandsFunctionality\AddittionCalculator.cs" />
+    <Compile Include="twoOperandsFunctionality\DivisionCalculator.cs" />
+    <Compile Include="twoOperandsFunctionality\ITwoArgumentsCalculator.cs" />
+    <Compile Include="twoOperandsFunctionality\MultiplyCalculator.cs" />
+    <Compile Include="twoOperandsFunctionality\SubstractionCalculator.cs" />
+    <Compile Include="twoOperandsFunctionality\TwoArgumentsCalculatorFactory.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
