@@ -12,25 +12,14 @@ namespace Calculator.Tests.twoOperandsFunctionalityTests
     [TestFixture]
     class SubdivisionCalculatortests
     {
-        [Test]
-        public void ZeroTest()
+        [TestCase(0, 0, 0)]
+        [TestCase(3, 2, 1)]
+        [TestCase(4, 2, 2)]
+        public void SubdivisionTest(double firstValue, double secondValue, double expected)
         {
             var calculator = new SubstractionCalculator();
-            Assert.AreEqual(0, calculator.Calculate(0, 0));
-        }
-
-        [Test]
-        public void FirstFieldTest()
-        {
-            var calculator = new SubstractionCalculator();
-            Assert.AreEqual(1, calculator.Calculate(2, 1));
-        }
-
-        [Test]
-        public void SecondFieldTest()
-        {
-            var calculator = new SubstractionCalculator();
-            Assert.AreEqual(-1, calculator.Calculate(1, 2));
+            var actualResult = calculator.Calculate(firstValue, secondValue);
+            Assert.AreEqual(expected, actualResult);
         }
     }
 }

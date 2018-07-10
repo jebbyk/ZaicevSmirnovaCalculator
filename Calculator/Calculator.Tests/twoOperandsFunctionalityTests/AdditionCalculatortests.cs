@@ -12,25 +12,14 @@ namespace Calculator.Tests.twoOperandsFunctionalityTests
     [TestFixture]
     public class AdditionCalculatorTest
     {
-        [Test]
-        public void ZeroTest()
+        [TestCase(0, 0, 0)]
+        [TestCase(1, 2, 3)]
+        [TestCase(5, 4, 9)]
+        public void AdditionTest(double firstValue, double secondValue, double expected)
         {
             var calculator = new AddittionCalculator();
-            Assert.AreEqual(0, calculator.Calculate(0, 0));
-        }
-
-        [Test]
-        public void FirstFieldTest()
-        {
-            var calculator = new AddittionCalculator();
-            Assert.AreEqual(1, calculator.Calculate(1, 0));
-        }
-
-        [Test]
-        public void SecondFieldTest()
-        {
-            var calculator = new AddittionCalculator();
-            Assert.AreEqual(1, calculator.Calculate(0, 1));
+            var actualResult = calculator.Calculate(firstValue, secondValue);
+            Assert.AreEqual(expected, actualResult);
         }
     }
 }

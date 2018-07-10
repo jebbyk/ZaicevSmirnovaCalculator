@@ -12,32 +12,14 @@ namespace Calculator.Tests.twoOperandsFunctionalityTests
     [TestFixture]
     class DivisionCalculatortests
     {
-        [Test]
-        public void ZeroTest()
+        [TestCase(0, 13, 0)]
+        [TestCase(3, 2, 1.5)]
+        [TestCase(4, 2, 2)]
+        public void DivisionTest(double firstValue, double secondValue, double expected)
         {
             var calculator = new DivisionCalculator();
-            Assert.AreEqual(0, calculator.Calculate(0, 1));
-        }
-
-        [Test]
-        public void FirstFieldTest()
-        {
-            var calculator = new DivisionCalculator();
-            Assert.AreEqual(2, calculator.Calculate(2, 1));
-        }
-
-        [Test]
-        public void SecondFieldTest()
-        {
-            var calculator = new DivisionCalculator();
-            Assert.AreEqual(0.5, calculator.Calculate(1, 2));
-        }
-
-        [Test]
-        public void MinusTest()
-        {
-            var calculator = new DivisionCalculator();
-            Assert.AreEqual(-0.5, calculator.Calculate(-1, 2));
+            var actualResult = calculator.Calculate(firstValue, secondValue);
+            Assert.AreEqual(expected, actualResult);
         }
     }
 }

@@ -12,25 +12,14 @@ namespace Calculator.Tests.oneOperandFunctionalityTests
     [TestFixture]
     public class SquareCalculatorTest
     {
-        [Test]
-        public void ZeroTest()
+        [TestCase(0, 0)]
+        [TestCase(30, 900)]
+        [TestCase(60, 3600)]
+        public void SquareTest(double firstValue, double expected)
         {
             var calculator = new SquareCalculator();
-            Assert.AreEqual(1, calculator.Calculate(0));
-        }
-
-        [Test]
-        public void OneTest()
-        {
-            var calculator = new SquareCalculator();
-            Assert.AreEqual(1, calculator.Calculate(1));
-        }
-
-        [Test]
-        public void TwoTest()
-        {
-            var calculator = new SquareCalculator();
-            Assert.AreEqual(4, calculator.Calculate(2));
+            var actualResult = calculator.Calculate(firstValue);
+            Assert.AreEqual(expected, actualResult);
         }
     }
 }

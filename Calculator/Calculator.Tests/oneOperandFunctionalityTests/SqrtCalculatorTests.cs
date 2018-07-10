@@ -12,25 +12,14 @@ namespace Calculator.Tests.oneOperandFunctionalityTests
     [TestFixture]
     public class SqrtCalculatorTest
     {
-        [Test]
-        public void Test1()
+        [TestCase(0, 0)]
+        [TestCase(900, 30)]
+        [TestCase(3600, 60)]
+        public void SqrtTest(double firstValue, double expected)
         {
             var calculator = new SqrtCalculator();
-            Assert.AreEqual(4, calculator.Calculate(16));
-        }
-
-        [Test]
-        public void Test2()
-        {
-            var calculator = new SqrtCalculator();
-            Assert.AreEqual(2, calculator.Calculate(4));
-        }
-
-        [Test]
-        public void TestOne()
-        {
-            var calculator = new SqrtCalculator();
-            Assert.AreEqual(1, calculator.Calculate(1));
+            var actualResult = calculator.Calculate(firstValue);
+            Assert.AreEqual(expected, actualResult);
         }
     }
 }

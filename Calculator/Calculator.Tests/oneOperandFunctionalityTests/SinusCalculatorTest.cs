@@ -12,11 +12,14 @@ namespace Calculator.Tests.oneOperandFunctionalityTests
     [TestFixture]
     public class SinusCalculatorTest
     {
-        [Test]
-        public void ZeroTest()
+        [TestCase(0, 0)]
+        [TestCase(30, -0.988)]
+        [TestCase(60, -0.305)]
+        public void SinusTest(double firstValue, double expected)
         {
             var calculator = new SinusCalculator();
-            Assert.AreEqual(0, calculator.Calculate(0));
+            var actualResult = calculator.Calculate(firstValue);
+            Assert.AreEqual(expected, actualResult, 0.001);
         }
     }
 }

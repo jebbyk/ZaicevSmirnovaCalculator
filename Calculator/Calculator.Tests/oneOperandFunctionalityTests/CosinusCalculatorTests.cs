@@ -12,11 +12,14 @@ namespace Calculator.Tests.oneOperandFunctionalityTests
     [TestFixture]
     public class CosinusCalculatorTest
     {
-        [Test]
-        public void OneTest()
+        [TestCase(0, 1)]
+        [TestCase(30, 0.154)]
+        [TestCase(60, -0.952)]
+        public void CosinusTest(double firstValue, double expected)
         {
             var calculator = new CosinusCalculator();
-            Assert.AreEqual(1, calculator.Calculate(1));
+            var actualResult = calculator.Calculate(firstValue);
+            Assert.AreEqual(expected, actualResult,0.001);
         }
     }
 }

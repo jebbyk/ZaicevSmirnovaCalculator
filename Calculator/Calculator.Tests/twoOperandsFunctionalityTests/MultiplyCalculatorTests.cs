@@ -12,32 +12,14 @@ namespace Calculator.Tests.twoOperandsFunctionalityTests
     [TestFixture]
     class MultiplyCalculatortests
     {
-        [Test]
-        public void ZeroTest()
+        [TestCase(0, 0, 0)]
+        [TestCase(3, 2, 6)]
+        [TestCase(4, 2, 8)]
+        public void MultiplyTest(double firstValue, double secondValue, double expected)
         {
             var calculator = new MultiplyCalculator();
-            Assert.AreEqual(0, calculator.Calculate(0, 0));
-        }
-
-        [Test]
-        public void FirstFieldTest()
-        {
-            var calculator = new MultiplyCalculator();
-            Assert.AreEqual(2, calculator.Calculate(2, 1));
-        }
-
-        [Test]
-        public void SecondFieldTest()
-        {
-            var calculator = new MultiplyCalculator();
-            Assert.AreEqual(2, calculator.Calculate(1, 2));
-        }
-
-        [Test]
-        public void MinusTest()
-        {
-            var calculator = new MultiplyCalculator();
-            Assert.AreEqual(-2, calculator.Calculate(-1, 2));
+            var actualResult = calculator.Calculate(firstValue, secondValue);
+            Assert.AreEqual(expected, actualResult);
         }
     }
 }
