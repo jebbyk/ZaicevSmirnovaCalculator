@@ -21,5 +21,13 @@ namespace Calculator.Tests.twoOperandsFunctionalityTests
             var actualResult = calculator.Calculate(firstValue, secondValue);
             Assert.AreEqual(expected, actualResult);
         }
+
+
+        [Test]
+        public void ExceptionTest()
+        {
+            var calculator = new DivisionCalculator();
+            Assert.Throws<Exception>(() => calculator.Calculate(1, 0));
+        }
     }
 }
