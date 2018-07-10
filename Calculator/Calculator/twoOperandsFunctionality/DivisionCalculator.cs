@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Calculator.twoOperandsFunctionality
+﻿namespace Calculator.twoOperandsFunctionality
 {
-    class DivisionCalculator : ItwoArgumentsCalculator
+    public class DivisionCalculator : ITwoArgumentsCalculator
     {
         public double Calculate(double firstNumber, double secondNumber)
         {
