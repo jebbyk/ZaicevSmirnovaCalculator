@@ -51,6 +51,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="oneOperandFunctionality\CosinusCalculator.cs" />
+    <Compile Include="oneOperandFunctionality\IOneArgumentCalculator.cs" />
+    <Compile Include="oneOperandFunctionality\OneArgumentsCalculatorFactory.cs" />
+    <Compile Include="oneOperandFunctionality\SinusCalculator.cs" />
+    <Compile Include="oneOperandFunctionality\SqrtCalculator.cs" />
+    <Compile Include="oneOperandFunctionality\SquareCalculator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="twoOperandsFunctionality\AddittionCalculator.cs" />
