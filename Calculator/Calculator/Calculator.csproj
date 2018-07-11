@@ -85,7 +85,7 @@
     <Compile Include="twoOperandsFunctionality\PowerCalculator.cs" />
     <Compile Include="twoOperandsFunctionality\DivisionCalculator.cs" />
     <Compile Include="twoOperandsFunctionality\ITwoArgumentsCalculator.cs" />
-    <Compile Include="twoOperandsFunctionality\MaxCalculator.cs" />
+    <Compile Include="twoOperandsFunctionality\MaximumCalculator.cs" />
     <Compile Include="twoOperandsFunctionality\MinimumCalculator.cs" />
     <Compile Include="twoOperandsFunctionality\MultiplyCalculator.cs" />
     <Compile Include="twoOperandsFunctionality\RadiusCalculator.cs" />

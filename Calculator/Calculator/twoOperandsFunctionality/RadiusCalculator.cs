@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Calculator.twoOperandsFunctionality
 {
-    class RadiusCalculator : ITwoArgumentsCalculator
+    public class RadiusCalculator : ITwoArgumentsCalculator
     {
         public double Calculate(double firstNumber, double secondNumber)
         {

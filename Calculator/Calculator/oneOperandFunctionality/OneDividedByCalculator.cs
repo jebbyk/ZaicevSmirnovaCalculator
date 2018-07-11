@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 
 namespace Calculator.oneOperandFunctionality
 {
-    class OneDividedByCalculator : IOneArgumentCalculator
+    public class OneDividedByCalculator : IOneArgumentCalculator
     {
         public double Calculate(double firstNumber)
         {
+            if (firstNumber == 0)
+            {
+                throw new Exception("Деление на 0");
+            }
             return 1/firstNumber;
         }
     }

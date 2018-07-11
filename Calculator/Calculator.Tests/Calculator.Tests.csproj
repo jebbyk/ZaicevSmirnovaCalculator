@@ -47,15 +47,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="oneOperandFunctionality\AbsoluteCalculatorTests.cs" />
+    <Compile Include="oneOperandFunctionality\ArctangentCalculatorTests.cs" />
+    <Compile Include="oneOperandFunctionality\CatangentCalculatorTests.cs" />
     <Compile Include="oneOperandFunctionality\CosinusCalculatorTests.cs" />
+    <Compile Include="oneOperandFunctionality\ExponentPowerCalculatorTests.cs" />
+    <Compile Include="oneOperandFunctionality\OneDividedByCalculatorTests.cs" />
     <Compile Include="oneOperandFunctionality\OneOperandFactoryTests.cs" />
     <Compile Include="oneOperandFunctionality\SinusCalculatorTest.cs" />
     <Compile Include="oneOperandFunctionality\SqrCalculatorTest.cs" />
     <Compile Include="oneOperandFunctionality\SqrtCalculatorTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="twoOperandsFunctionality\AdditionCalculatortests.cs" />
+    <Compile Include="twoOperandsFunctionality\AdvansedRootCalculatorTests.cs" />
     <Compile Include="twoOperandsFunctionality\DivisionCalculatortests.cs" />
+    <Compile Include="twoOperandsFunctionality\GeometricMeanCalculatorTests.cs" />
+    <Compile Include="twoOperandsFunctionality\MinimumCalculatortests.cs" />
+    <Compile Include="twoOperandsFunctionality\ModulaCalculatorTests.cs" />
     <Compile Include="twoOperandsFunctionality\MultiplyCalculatorTests.cs" />
+    <Compile Include="twoOperandsFunctionality\RadiusCalculatorTests.cs" />
     <Compile Include="twoOperandsFunctionality\SubdivisionCalculatorTests.cs" />
     <Compile Include="twoOperandsFunctionality\TwoOperndsFactoryTests.cs" />
   </ItemGroup>

@@ -27,7 +27,7 @@ namespace Calculator.twoOperandsFunctionality
                     return new PowerCalculator();
                     break;
                 case "Max":
-                    return new MaxCalculator();
+                    return new MaximumCalculator();
                     break;
                 case "Min":
                     return new MinimumCalculator();
