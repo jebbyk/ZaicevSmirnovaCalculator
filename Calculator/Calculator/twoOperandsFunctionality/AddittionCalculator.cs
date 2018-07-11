@@ -8,7 +8,7 @@
         /// <param name="firstNumber"></param>
         /// <param name="secondNumber"></param>
         /// <returns>
-        ///Returns summ of two numbers
+        /// Returns summ of two numbers
         /// /returns>
         public double Calculate(double firstNumber, double secondNumber)
         {

@@ -8,9 +8,16 @@ namespace Calculator.oneOperandFunctionality
 {
     public class NegativeCalculator : IOneArgumentCalculator
     {
-    public double Calculate(double firstNumber)
-          {
-             return -(firstNumber);
-          }
+        /// <summary>
+        /// Negative function
+        /// </summary>
+        /// <param name="firstNumber"></param>
+        /// <returns>
+        /// Returns a negative first number
+        /// </returns>
+        public double Calculate(double firstNumber)
+        {
+            return -(firstNumber);
+        }
     }
 }

@@ -5,15 +5,13 @@ namespace Calculator.twoOperandsFunctionality
     public class DivisionCalculator : ITwoArgumentsCalculator
     {
         /// <summary>
-        /// Calculate Division function
+        /// Division function
         /// </summary>
         /// <param name="firstNumber"></param>
         /// <param name="secondNumber"></param>
-        /// check secondNumber
-        /// if secondNumber is zero
-        /// then error
+        /// Takes two doubles. Second number shoudn't be equals zero
         /// <returns>
-        ///returns result division
+        /// returns result of division od first number by second number
         /// </returns>
         public double Calculate(double firstNumber, double secondNumber)
         {
