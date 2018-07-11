@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Calculator.twoOperandsFunctionality
 {
-    class MaximumCalculator : ITwoArgumentsCalculator
+    public class MaximumCalculator : ITwoArgumentsCalculator
     {
         public double Calculate(double firstNumber, double secondNumber)
         {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Calculator.oneOperandFunctionality
 {
-    class TangentCalculator : IOneArgumentCalculator
+    public class TangentCalculator : IOneArgumentCalculator
     {
         public double Calculate(double firstNumber)
         {

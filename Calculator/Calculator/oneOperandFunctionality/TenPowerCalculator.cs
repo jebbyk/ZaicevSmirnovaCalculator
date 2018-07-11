@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Calculator.oneOperandFunctionality
 {
-    class TenPowerCalculator : IOneArgumentCalculator
+    public class TenPowerCalculator : IOneArgumentCalculator
     {
         public double Calculate(double firstNumber)
         {

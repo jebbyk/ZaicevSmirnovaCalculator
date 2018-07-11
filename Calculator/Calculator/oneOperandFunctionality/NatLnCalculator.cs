@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Calculator.oneOperandFunctionality
 {
-    class NatLnCalculator : IOneArgumentCalculator
+    public class NatLnCalculator : IOneArgumentCalculator
     {
         public double Calculate(double firstNumber)
         {

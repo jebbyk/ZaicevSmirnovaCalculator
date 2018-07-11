@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Calculator.twoOperandsFunctionality
 {
-    class ArithMeanCalculator : ITwoArgumentsCalculator
+    public class ArithMeanCalculator : ITwoArgumentsCalculator
     {
         public double Calculate(double firstNumber, double secondNumber)
         {
