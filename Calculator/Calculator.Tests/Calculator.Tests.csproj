@@ -47,17 +47,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="oneOperandFunctionalityTests\CosinusCalculatorTests.cs" />
-    <Compile Include="oneOperandFunctionalityTests\OneOperandFactoryTests.cs" />
-    <Compile Include="oneOperandFunctionalityTests\SinusCalculatorTest.cs" />
-    <Compile Include="oneOperandFunctionalityTests\SqrCalculatorTest.cs" />
-    <Compile Include="oneOperandFunctionalityTests\SqrtCalculatorTests.cs" />
+    <Compile Include="oneOperandFunctionality\CosinusCalculatorTests.cs" />
+    <Compile Include="oneOperandFunctionality\OneOperandFactoryTests.cs" />
+    <Compile Include="oneOperandFunctionality\SinusCalculatorTest.cs" />
+    <Compile Include="oneOperandFunctionality\SqrCalculatorTest.cs" />
+    <Compile Include="oneOperandFunctionality\SqrtCalculatorTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="twoOperandsFunctionalityTests\AdditionCalculatortests.cs" />
-    <Compile Include="twoOperandsFunctionalityTests\DivisionCalculatortests.cs" />
-    <Compile Include="twoOperandsFunctionalityTests\MultiplyCalculatorTests.cs" />
-    <Compile Include="twoOperandsFunctionalityTests\SubdivisionCalculatorTests.cs" />
-    <Compile Include="twoOperandsFunctionalityTests\TwoOperndsFactoryTests.cs" />
+    <Compile Include="twoOperandsFunctionality\AdditionCalculatortests.cs" />
+    <Compile Include="twoOperandsFunctionality\DivisionCalculatortests.cs" />
+    <Compile Include="twoOperandsFunctionality\MultiplyCalculatorTests.cs" />
+    <Compile Include="twoOperandsFunctionality\SubdivisionCalculatorTests.cs" />
+    <Compile Include="twoOperandsFunctionality\TwoOperndsFactoryTests.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

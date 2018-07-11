@@ -7,7 +7,7 @@ using NUnit.Framework;
 using Calculator;
 using Calculator.oneOperandFunctionality;
 
-namespace Calculator.Tests.oneOperandFunctionalityTests
+namespace Calculator.Tests.oneOperandFunctionality
 {
     [TestFixture]
     public class SqrtCalculatorTest

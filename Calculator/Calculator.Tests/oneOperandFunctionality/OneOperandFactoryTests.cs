@@ -8,7 +8,7 @@ using Calculator.twoOperandsFunctionality;
 using NUnit.Framework;
 using NUnit.Framework.Internal;
 
-namespace Calculator.Tests.oneOperandFunctionalityTests
+namespace Calculator.Tests.oneOperandFunctionality
 {
     class OneOperandFactoryTests
     {
