@@ -189,6 +189,7 @@
             this.button9.TabIndex = 15;
             this.button9.Text = "Ctan";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.OneArgumentButtonClick);
             // 
             // button10
             // 
@@ -198,6 +199,7 @@
             this.button10.TabIndex = 17;
             this.button10.Text = "Arctan";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.OneArgumentButtonClick);
             // 
             // button11
             // 
@@ -217,6 +219,7 @@
             this.button12.TabIndex = 19;
             this.button12.Text = "1/x";
             this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.OneArgumentButtonClick);
             // 
             // button13
             // 
@@ -276,6 +279,7 @@
             this.button8.TabIndex = 25;
             this.button8.Text = "e^x";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.OneArgumentButtonClick);
             // 
             // button17
             // 
@@ -285,6 +289,7 @@
             this.button17.TabIndex = 26;
             this.button17.Text = "|x|";
             this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.OneArgumentButtonClick);
             // 
             // button18
             // 
@@ -294,6 +299,7 @@
             this.button18.TabIndex = 27;
             this.button18.Text = "x^(1/y)";
             this.button18.UseVisualStyleBackColor = true;
+            this.button18.Click += new System.EventHandler(this.TwoArgumentsButtonClick);
             // 
             // button19
             // 
@@ -313,6 +319,7 @@
             this.button20.TabIndex = 29;
             this.button20.Text = "Geom Mean";
             this.button20.UseVisualStyleBackColor = true;
+            this.button20.Click += new System.EventHandler(this.TwoArgumentsButtonClick);
             // 
             // button21
             // 
@@ -322,6 +329,7 @@
             this.button21.TabIndex = 30;
             this.button21.Text = "Rad";
             this.button21.UseVisualStyleBackColor = true;
+            this.button21.Click += new System.EventHandler(this.TwoArgumentsButtonClick);
             // 
             // button22
             // 
@@ -331,6 +339,7 @@
             this.button22.TabIndex = 31;
             this.button22.Text = "x%y";
             this.button22.UseVisualStyleBackColor = true;
+            this.button22.Click += new System.EventHandler(this.TwoArgumentsButtonClick);
             // 
             // button23
             // 
@@ -350,6 +359,7 @@
             this.button24.TabIndex = 33;
             this.button24.Text = "Min";
             this.button24.UseVisualStyleBackColor = true;
+            this.button24.Click += new System.EventHandler(this.TwoArgumentsButtonClick);
             // 
             // Form1
             // 

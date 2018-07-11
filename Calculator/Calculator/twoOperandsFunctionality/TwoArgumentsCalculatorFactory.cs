@@ -24,10 +24,25 @@ namespace Calculator.twoOperandsFunctionality
                     return new ArithMeanCalculator();
                     break;
                 case "x^y":
-                    return new DegreeCalculator();
+                    return new PowerCalculator();
                     break;
                 case "Max":
                     return new MaxCalculator();
+                    break;
+                case "Min":
+                    return new MinimumCalculator();
+                    break;
+                case "x^(1/y)":
+                    return new AdvansedRootCalculator();
+                    break;
+                case "x%y":
+                    return new ModulaCalculator();
+                    break;
+                case "Rad":
+                    return new RadiusCalculator();
+                    break;
+                case "Geom Mean":
+                    return new GeometricMeanCalculator();
                     break;
                 default:
                     throw new Exception("error");

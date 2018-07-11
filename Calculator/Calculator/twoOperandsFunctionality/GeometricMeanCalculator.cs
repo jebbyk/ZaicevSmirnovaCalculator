@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Calculator.twoOperandsFunctionality
 {
-    class DegreeCalculator : ITwoArgumentsCalculator
+    class GeometricMeanCalculator : ITwoArgumentsCalculator
     {
         public double Calculate(double firstNumber, double secondNumber)
         {
-            return Math.Pow(firstNumber, secondNumber);
+            return Math.Sqrt(firstNumber + secondNumber);
         }
     }
 }

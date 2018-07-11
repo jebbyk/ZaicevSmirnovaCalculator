@@ -57,13 +57,18 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="oneOperandFunctionality\AbsoluteCalculator.cs" />
     <Compile Include="oneOperandFunctionality\ArccosinusCalculator.cs" />
     <Compile Include="oneOperandFunctionality\ArcsinusCalculator.cs" />
+    <Compile Include="oneOperandFunctionality\ArctangentCalculator.cs" />
+    <Compile Include="oneOperandFunctionality\CatangentCalculator.cs" />
     <Compile Include="oneOperandFunctionality\CosinusCalculator.cs" />
+    <Compile Include="oneOperandFunctionality\ExponentPowerCalculator.cs" />
     <Compile Include="oneOperandFunctionality\IOneArgumentCalculator.cs" />
     <Compile Include="oneOperandFunctionality\NatLnCalculator.cs" />
     <Compile Include="oneOperandFunctionality\NegativeCalculator.cs" />
     <Compile Include="oneOperandFunctionality\OneArgumentsCalculatorFactory.cs" />
+    <Compile Include="oneOperandFunctionality\OneDividedByCalculator.cs" />
     <Compile Include="oneOperandFunctionality\SinusCalculator.cs" />
     <Compile Include="oneOperandFunctionality\SqrtCalculator.cs" />
     <Compile Include="oneOperandFunctionality\SquareCalculator.cs" />
@@ -73,12 +78,17 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="twoOperandsFunctionality\AddittionCalculator.cs" />
+    <Compile Include="twoOperandsFunctionality\AdvansedRootCalculator.cs" />
     <Compile Include="twoOperandsFunctionality\ArithMeanCalculator.cs" />
-    <Compile Include="twoOperandsFunctionality\DegreeCalculator.cs" />
+    <Compile Include="twoOperandsFunctionality\GeometricMeanCalculator.cs" />
+    <Compile Include="twoOperandsFunctionality\ModulaCalculator.cs" />
+    <Compile Include="twoOperandsFunctionality\PowerCalculator.cs" />
     <Compile Include="twoOperandsFunctionality\DivisionCalculator.cs" />
     <Compile Include="twoOperandsFunctionality\ITwoArgumentsCalculator.cs" />
     <Compile Include="twoOperandsFunctionality\MaxCalculator.cs" />
+    <Compile Include="twoOperandsFunctionality\MinimumCalculator.cs" />
     <Compile Include="twoOperandsFunctionality\MultiplyCalculator.cs" />
+    <Compile Include="twoOperandsFunctionality\RadiusCalculator.cs" />
     <Compile Include="twoOperandsFunctionality\SubstractionCalculator.cs" />
     <Compile Include="twoOperandsFunctionality\TwoArgumentsCalculatorFactory.cs" />
     <EmbeddedResource Include="Form1.resx">

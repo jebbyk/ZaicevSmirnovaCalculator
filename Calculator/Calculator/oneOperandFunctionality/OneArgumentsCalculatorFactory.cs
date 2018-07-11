@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.InteropServices.WindowsRuntime;
 
 namespace Calculator.oneOperandFunctionality
 {
@@ -40,6 +41,21 @@ namespace Calculator.oneOperandFunctionality
                     break;
                 case "Ln":
                     return new NatLnCalculator();
+                    break;
+                case "1/x":
+                    return new OneDividedByCalculator();
+                    break;
+                case "e^x":
+                    return new ExponentPowerCalculator();
+                    break;
+                case "Arctan":
+                    return new ArctangentCalculator();
+                    break;
+                case "|x|":
+                    return  new AbsoluteCalculator();
+                    break;
+                case "Ctan":
+                    return new CatangentCalculator();
                     break;
                 default:
                     throw new Exception("error");
