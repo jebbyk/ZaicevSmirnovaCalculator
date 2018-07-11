@@ -20,6 +20,15 @@ namespace Calculator.twoOperandsFunctionality
                 case "/":
                     return new DivisionCalculator();
                     break;
+                case "Arith Mean":
+                    return new ArithMeanCalculator();
+                    break;
+                case "x^y":
+                    return new DegreeCalculator();
+                    break;
+                case "Max":
+                    return new MaxCalculator();
+                    break;
                 default:
                     throw new Exception("error");
             }

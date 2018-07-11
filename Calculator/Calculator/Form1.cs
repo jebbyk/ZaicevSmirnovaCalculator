@@ -21,9 +21,9 @@ namespace Calculator
             ResultField.Text = result.ToString();
         }
 
-       public void OneArgumentButtonClick(object sender, EventArgs e)
+        public void OneArgumentButtonClick(object sender, EventArgs e)
         {
-            Button clickedButton = (Button)sender;
+            Button clickedButton = (Button) sender;
             double number = Convert.ToDouble(Number1Field.Text);
             IOneArgumentCalculator calculator = OneArgumentsCalculatorFactory.CreateCalculator(clickedButton.Text);
             double result = calculator.Calculate(number);
