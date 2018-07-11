@@ -6,6 +6,10 @@ namespace Calculator.oneOperandFunctionality
     {
         public double Calculate(double firstNumber)
         {
+            if (firstNumber < 0)
+            {
+                throw new Exception("Извлечение из отрицательного");
+            }
             return Math.Sqrt(firstNumber);
         }
     }

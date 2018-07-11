@@ -21,5 +21,12 @@ namespace Calculator.Tests.oneOperandFunctionalityTests
             var actualResult = calculator.Calculate(firstValue);
             Assert.AreEqual(expected, actualResult);
         }
+
+        [Test]
+        public void ExceptionTest()
+        {
+            var calculator = new SqrtCalculator();
+            Assert.Throws<Exception>(() => calculator.Calculate(-1));
+        }
     }
 }
