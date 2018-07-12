@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Runtime.InteropServices.WindowsRuntime;
 
 namespace Calculator.oneOperandFunctionality
 {
@@ -11,16 +10,12 @@ namespace Calculator.oneOperandFunctionality
             {
                 case "Sin":
                     return new SinusCalculator();
-                    break;
                 case "Cos":
                     return new CosinusCalculator();
-                    break;
                 case "Sqrt":
                     return new SqrtCalculator();
-                    break;
                 case "Sqr":
                     return new SquareCalculator();
-                    break;
                 case "-x":
                     return new NegativeCalculator();
                     break;

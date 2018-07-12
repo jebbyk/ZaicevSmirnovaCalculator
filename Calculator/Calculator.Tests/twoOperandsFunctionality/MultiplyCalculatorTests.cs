@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Calculator.twoOperandsFunctionality;
 using NUnit.Framework;
-using Calculator;
-using Calculator.twoOperandsFunctionality;
 
-namespace Calculator.Tests.twoOperandsFunctionalityTests
+namespace Calculator.Tests.twoOperandsFunctionality
 {
     [TestFixture]
     class MultiplyCalculatortests

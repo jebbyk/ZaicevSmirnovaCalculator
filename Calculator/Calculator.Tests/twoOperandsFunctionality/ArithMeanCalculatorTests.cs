@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using NUnit.Framework;
-using Calculator;
+﻿using NUnit.Framework;
 using Calculator.twoOperandsFunctionality;
 
 namespace Calculator.Tests.twoOperandsFunctionality
@@ -17,7 +11,7 @@ namespace Calculator.Tests.twoOperandsFunctionality
         [TestCase(1, -1, 0)]
         public void ArithMeanTest(double firstValue, double secondValue, double expected)
         {
-            var calculator = new ArithMeanCalculator();
+            var calculator = new ArithmeticMeanCalculator();
             var actualResult = calculator.Calculate(firstValue, secondValue);
             Assert.AreEqual(expected, actualResult, 0.001);
         }

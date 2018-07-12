@@ -11,7 +11,7 @@
         /// </returns>
         public double Calculate(double firstNumber)
         {
-            return firstNumber*firstNumber;
+            return firstNumber * firstNumber;
         }
     }
 }

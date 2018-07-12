@@ -79,7 +79,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="twoOperandsFunctionality\AddittionCalculator.cs" />
     <Compile Include="twoOperandsFunctionality\AdvansedRootCalculator.cs" />
-    <Compile Include="twoOperandsFunctionality\ArithMeanCalculator.cs" />
+    <Compile Include="twoOperandsFunctionality\ArithmeticMeanCalculator.cs" />
     <Compile Include="twoOperandsFunctionality\GeometricMeanCalculator.cs" />
     <Compile Include="twoOperandsFunctionality\ModulaCalculator.cs" />
     <Compile Include="twoOperandsFunctionality\PowerCalculator.cs" />

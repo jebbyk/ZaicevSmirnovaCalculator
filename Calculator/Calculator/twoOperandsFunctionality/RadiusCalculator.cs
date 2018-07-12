@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Calculator.twoOperandsFunctionality
 {
@@ -19,7 +15,7 @@ namespace Calculator.twoOperandsFunctionality
         /// </returns>
         public double Calculate(double firstNumber, double secondNumber)
         {
-            return Math.Sqrt(firstNumber*firstNumber + secondNumber*secondNumber);
+            return Math.Sqrt(firstNumber * firstNumber + secondNumber * secondNumber);
         }
     }
 }

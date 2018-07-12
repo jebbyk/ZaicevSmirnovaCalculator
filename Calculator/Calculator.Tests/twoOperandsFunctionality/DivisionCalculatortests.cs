@@ -1,13 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using NUnit.Framework;
-using Calculator;
 using Calculator.twoOperandsFunctionality;
+using NUnit.Framework;
 
-namespace Calculator.Tests.twoOperandsFunctionalityTests
+namespace Calculator.Tests.twoOperandsFunctionality
 {
     [TestFixture]
     class DivisionCalculatortests

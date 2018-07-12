@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Calculator.twoOperandsFunctionality
+﻿namespace Calculator.twoOperandsFunctionality
 {
     public class AddittionCalculator : ITwoArgumentsCalculator
     {
@@ -15,7 +9,7 @@ namespace Calculator.twoOperandsFunctionality
         /// <param name="secondNumber"></param>
         /// <returns>
         /// Returns summ of two numbers
-        /// /returns>
+        /// </returns>
         public double Calculate(double firstNumber, double secondNumber)
         {
             return firstNumber + secondNumber;

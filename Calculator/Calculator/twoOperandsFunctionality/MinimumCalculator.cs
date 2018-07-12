@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Calculator.twoOperandsFunctionality
+﻿namespace Calculator.twoOperandsFunctionality
 {
     public class MinimumCalculator : ITwoArgumentsCalculator
     {
@@ -19,14 +13,7 @@ namespace Calculator.twoOperandsFunctionality
         /// </returns>
         public double Calculate(double firstNumber, double secondNumber)
         {
-            if (firstNumber > secondNumber)
-            {
-                return secondNumber;
-            }
-            else
-            {
-                return firstNumber;
-            }
+            return firstNumber > secondNumber ? secondNumber : firstNumber;
         }
     }
 }

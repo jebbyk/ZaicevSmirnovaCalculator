@@ -21,7 +21,7 @@ namespace Calculator.twoOperandsFunctionality
                     return new DivisionCalculator();
                     break;
                 case "Arith Mean":
-                    return new ArithMeanCalculator();
+                    return new ArithmeticMeanCalculator();
                     break;
                 case "x^y":
                     return new PowerCalculator();
