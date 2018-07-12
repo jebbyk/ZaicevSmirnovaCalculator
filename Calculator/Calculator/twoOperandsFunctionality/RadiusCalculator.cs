@@ -19,7 +19,6 @@ namespace Calculator.twoOperandsFunctionality
         /// </returns>
         public double Calculate(double firstNumber, double secondNumber)
         {
-            
             return Math.Sqrt(firstNumber*firstNumber + secondNumber*secondNumber);
         }
     }

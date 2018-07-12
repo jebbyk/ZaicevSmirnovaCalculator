@@ -6,8 +6,6 @@ using System.Threading.Tasks;
 
 namespace Calculator.twoOperandsFunctionality
 {
-    
-
     public class AdvansedRootCalculator : ITwoArgumentsCalculator
     {
         /// <summary>

@@ -19,7 +19,6 @@ namespace Calculator.Tests.oneOperandFunctionality
         public void CalculateTest(string name, Type type)
         {
             var calculator = OneArgumentsCalculatorFactory.CreateCalculator(name);
-
             Assert.IsInstanceOf(type, calculator);
         }
     }

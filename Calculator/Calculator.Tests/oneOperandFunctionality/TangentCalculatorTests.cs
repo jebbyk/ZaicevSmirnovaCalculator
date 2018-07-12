@@ -7,7 +7,6 @@ using NUnit.Framework.Internal;
 using Calculator.oneOperandFunctionality;
 using NUnit.Framework;
 
-
 namespace Calculator.Tests.oneOperandFunctionality
 {
     [TestFixture]
