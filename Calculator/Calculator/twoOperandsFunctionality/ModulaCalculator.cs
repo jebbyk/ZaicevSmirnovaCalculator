@@ -1,4 +1,6 @@
-﻿namespace Calculator.twoOperandsFunctionality
+﻿using System;
+
+namespace Calculator.twoOperandsFunctionality
 {
     public class ModulaCalculator : ITwoArgumentsCalculator
     {
@@ -14,7 +16,14 @@
         /// </returns>
         public double Calculate(double firstNumber, double secondNumber)
         {
-            return firstNumber % secondNumber;
+            if (secondNumber == 0)
+            {
+                throw  new Exception("деление на 0");
+            }
+            else
+            {
+                return firstNumber % secondNumber;
+            }
         }
     }
 }

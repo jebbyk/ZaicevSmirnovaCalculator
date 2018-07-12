@@ -13,7 +13,14 @@ namespace Calculator.oneOperandFunctionality
         /// </returns>
         public double Calculate(double firstNumber)
         {
-            return Math.Asin(firstNumber);
+            if (firstNumber > -1 && firstNumber < 1)
+            {
+                return Math.Asin(firstNumber);
+            }
+            else
+            {
+                throw new Exception("Значение от -1 до 1");
+            }
         }
     }
 }

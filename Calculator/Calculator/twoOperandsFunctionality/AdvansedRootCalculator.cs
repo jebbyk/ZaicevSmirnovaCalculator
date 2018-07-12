@@ -15,7 +15,22 @@ namespace Calculator.twoOperandsFunctionality
         /// </returns>
         public double Calculate(double firstNumber, double secondNumber)
         {
-            return Math.Pow(firstNumber, 1/secondNumber);
+            if (firstNumber < 0)
+            {
+                throw new Exception("некоректный ввод");
+                
+            }
+            else
+            {
+                if (secondNumber == 0)
+                {
+                    throw new Exception("бесконечная степень");
+                }
+                else
+                {
+                    return Math.Pow(firstNumber, 1 / secondNumber);
+                }
+            }
         }
     }
 }

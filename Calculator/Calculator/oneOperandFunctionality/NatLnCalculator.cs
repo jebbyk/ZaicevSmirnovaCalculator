@@ -13,7 +13,14 @@ namespace Calculator.oneOperandFunctionality
         /// </returns>
         public double Calculate(double firstNumber)
         {
-            return Math.Log(firstNumber);
+            if (firstNumber <= 0)
+            {
+                return Math.Log(firstNumber);
+            }
+            else
+            {
+                throw new Exception("должно быть больше 0");
+            }
         }
     }
 }
